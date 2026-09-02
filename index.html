@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cargando YouTube...</title>
-    <!-- Enlace al manifiesto corregido -->
+    
+    <!-- Esta línea conecta con el manifiesto para permitir la instalación -->
     <link rel="manifest" href="manifest.json">
+    
+    <!-- Configuración para móviles y Windows -->
     <meta name="theme-color" content="#0f0f0f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     
     <style>
         body {
@@ -33,14 +37,14 @@
     </style>
 
     <script>
-        // ESTO ES LO QUE TE FALTABA: La orden de ir a YouTube
+        // Esta es la orden que te lleva a YouTube automáticamente
         window.location.href = "https://m.youtube.com";
     </script>
 </head>
 <body>
     <div class="loader">
         <div class="spinner"></div>
-        <p>Redirigiendo a YouTube...</p>
+        <p>Abriendo YouTube...</p>
     </div>
 </body>
 </html>
