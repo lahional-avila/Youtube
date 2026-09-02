@@ -1,0 +1,17 @@
+{
+  "name": "YouTube Search",
+  "short_name": "YouTube",
+  "description": "Buscador directo de YouTube",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://www.youtube.com/img/desktop/yt_1200.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
